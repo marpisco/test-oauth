@@ -1,9 +1,19 @@
-node_modules/
-npm-debug.log
-.env
-.DS_Store
-*.log
-dist/
-build/
+# Storage and data files
+storage/tokens.json
+
+# IDE and editor files
 .vscode/
 .idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment files
+.env
