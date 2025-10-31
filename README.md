@@ -19,6 +19,8 @@ A simple, lightweight OAuth2 authorization server designed for testing and devel
 
 ## Quick Start
 
+> 💡 **In a hurry?** Check out [QUICKSTART.md](QUICKSTART.md) for a 3-minute setup guide!
+
 ### Option 1: Laragon (Recommended for Windows)
 
 1. **Download and install [Laragon](https://laragon.org/)**
