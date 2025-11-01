@@ -213,5 +213,7 @@ function getBaseUrl() {
                  || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
     $host = $_SERVER['HTTP_HOST'];
     $script = dirname($_SERVER['SCRIPT_NAME']);
+    // Normalize path separators for Windows compatibility (Laragon)
+    $script = str_replace('\\', '/', $script);
     return $protocol . $host . ($script !== '/' ? $script : '');
 }
